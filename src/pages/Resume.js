@@ -1,12 +1,13 @@
 import React from 'react';
 import '../css/resume.css';
+
 function Resume() {
     return(
         <div>
             <section id="resume">
                 <h2 className='section-title'>Resume</h2>
                 <div className='resume'>
-                    Download my <a href="../assets/CBurtonResume.pdf" download>Resume</a>
+                    Download my <a href='../assets/CBurtonResume.pdf' download>Resume</a>
                     <br />
                     <br />
                     <p>

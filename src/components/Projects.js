@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Project() {
-    const [projects] = useState([
+    const projects = [
         {
             name: 'Horiseon',
             description: 'Search Engine Optimization',
@@ -37,14 +37,14 @@ function Project() {
             github:'https://the-poke-book.herokuapp.com',
             image:'pokebook.jpg'
         }
-    ]);
+    ];
 
-    // const currentPhotos = projects.filter() 
+    const currentPhotos = projects.filter() 
     return (
         <section>
             <div>
                 <div className='flex-row'>
-                    {projects.map((image, i) => (
+                    {currentPhotos.map((image, i) => (
                     <img
                         src={require(`../assets/images/${image}`).default}
                         alt={image.name}
