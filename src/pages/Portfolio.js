@@ -1,11 +1,11 @@
 import React from 'react';
-// import Project from '../Projects';
+import Project from '../components/Projects';
 
 function Portfolio() {
     return (
         <section>
             <h1>Portfolio</h1>
-            {/* <Project></Project> */}
+            <Project></Project>
         </section>
     );
 }

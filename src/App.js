@@ -21,6 +21,11 @@ function App() {
           <Routes>
           
             <Route
+              path="cburton-portfolio/"
+              element={<About />}
+            />
+
+            <Route
               path="/"
               element={<About />}
             />
