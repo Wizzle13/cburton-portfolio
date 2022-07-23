@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cburton-portfolio/static/css/main.d4ad38a8.css",
+    "main.js": "/cburton-portfolio/static/js/main.a1077536.js",
+    "static/js/612.a21476ce.chunk.js": "/cburton-portfolio/static/js/612.a21476ce.chunk.js",
+    "static/media/profilepic.webp": "/cburton-portfolio/static/media/profilepic.f5dd00735452fc3339f4.webp",
+    "static/media/Linkedin.png": "/cburton-portfolio/static/media/Linkedin.4f880a48eec5737eb58b.png",
+    "static/media/github.webp": "/cburton-portfolio/static/media/github.904b6c16276a6bb4eadb.webp",
+    "index.html": "/cburton-portfolio/index.html",
+    "main.d4ad38a8.css.map": "/cburton-portfolio/static/css/main.d4ad38a8.css.map",
+    "main.a1077536.js.map": "/cburton-portfolio/static/js/main.a1077536.js.map",
+    "612.a21476ce.chunk.js.map": "/cburton-portfolio/static/js/612.a21476ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4ad38a8.css",
+    "static/js/main.a1077536.js"
+  ]
+}
