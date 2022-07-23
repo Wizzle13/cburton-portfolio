@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import ContactForm from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -33,11 +34,11 @@ function App() {
               path="/contact"
               element={<ContactForm />}
             />
-{/*            
+            
             <Route
               path="/portfolio"
               element={<Portfolio />}
-            /> */}
+            /> 
 
           </Routes>
         </div>
