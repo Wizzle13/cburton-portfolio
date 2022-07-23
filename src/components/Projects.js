@@ -39,17 +39,17 @@ function Project() {
         }
     ];
 
-    const currentPhotos = projects.filter() 
+    
     return (
         <section>
             <div>
                 <div className='flex-row'>
-                    {currentPhotos.map((image, i) => (
+                    {projects.map((projects, i) => (
                     <img
-                        src={require(`../assets/images/${image}`).default}
-                        alt={image.name}
+                        src={require(`../assets/images/${projects.image}`)}
+                        alt={projects.name}
                         className='img-thumbnail mx-1'
-                        key={image.name}
+                        key={projects.name}
                     />
                     ))}
                 </div>

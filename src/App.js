@@ -26,22 +26,22 @@ function App() {
             />
 
             <Route
-              path="/"
+              path="cburton-portfolio/"
               element={<About />}
             />
  
             <Route
-              path="/resume"
+              path="cburton-portfolio/resume"
               element={<Resume />}
             />
 
             <Route
-              path="/contact"
+              path="cburton-portfolio/contact"
               element={<ContactForm />}
             />
             
             <Route
-              path="/portfolio"
+              path="cburton-portfolio/portfolio"
               element={<Portfolio />}
             /> 
 
