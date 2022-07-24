@@ -7,37 +7,37 @@ function Project() {
     const projects = [
         {
             name: 'Horiseon',
-            description: 'Search Engine Optimization',
+            description: 'Horiseon wished for their site to follow accessibility standards and to be optimized for searh engines.',
             url: 'https://wizzle13.github.io/horiseon/',
-            github:'https://wizzle13.github.io/horiseon/',
+            github:'https://github.com/wizzle13/horiseon',
             image:'horiseon.jpg'
         },
         {
             name: 'Run Buddy',
-            description: 'Find your Run Buddy here',
+            description: 'Find your Run Buddy here. A mock website to offer running and training services. It was used as pratice for learning HTML and CSS.',
             url: 'https://wizzle13.github.io/run-buddy/',
-            github:'https://wizzle13.github.io/run-buddy/',
+            github:'https://github.com/wizzle13/run-buddy/',
             image:'run-buddy.jpg'
         },
         {
             name: 'Password Generator',
-            description: 'Generates Ramdon Passwords',
+            description: 'Generates Ramdon Passwords. A simple site for generating random passwords.',
             url: 'https://wizzle13.github.io/password-generator/',
-            github:'https://wizzle13.github.io/password-generator/',
+            github:'https://github.com/Wizzle13/password-generator/',
             image:'password-generator.png'
         },
         {
             name: 'The Coders Blog',
             description: 'A simple blog site',
             url: 'https://the-coders-blog.herokuapp.com',
-            github:'https://the-coders-blog.herokuapp.com',
+            github:' https://github.com/wizzle13/The-Coders-blog/',
             image:'codersblog.jpg'
         },
         {
             name: 'PokeBook',
-            description: 'Pokemon Social Media site',
+            description: 'A new social media site for Pokemon lovers, where you can connect with other Pokemon lovers and share messages.',
             url: 'https://the-poke-book.herokuapp.com',
-            github:'https://the-poke-book.herokuapp.com',
+            github:'https://github.com/Wizzle13/pokebook',
             image:'pokebook.jpg'
         }
     ];

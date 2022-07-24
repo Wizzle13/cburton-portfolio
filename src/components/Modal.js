@@ -9,11 +9,19 @@ const Modal = ({ onClose, currentProject }) =>  {
         <h3 className="modalTitle">{name}</h3>
         <img src={require(`../assets/images/${image}`)} alt={name} />
         <p>{description}</p>
-        <p>{url}</p>
-        <p>{github}</p>
-            <button onClick={onClose} type="button">
+        <p>
+            <a href={url}>
+                <img src={require(`../assets/images/website.gif`)} alt="Website"  />
+            </a>
+        </p>
+        <p>
+            <a href={github}>
+                <img src={require(`../assets/images/github.gif`)} alt="Github"  />
+            </a>
+        </p>
+        <button onClick={onClose} type="button">
             Close this modal
-            </button>
+        </button>
         </div>
         </div>
     );
