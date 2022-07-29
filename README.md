@@ -18,6 +18,7 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=plastic&logo=Javascript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=plastic&logo=react&logoColor=61DAFB)
+![EmailJS](https://img.shields.io/badge/EmailJS-1572B6?style=plastic&logo=EmailJS&logoColor=61DAFB)
 
 ##### Backend:
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=plastic&logo=node.js&logoColor=white)
@@ -31,6 +32,9 @@
 
 #### Dependencies:
 ![npm express](https://img.shields.io/npm/v/express?label=express&style=plastic)
+
+#### Other Tools:
+![Google%20Analytics](https://img.shields.io/badge/Google%20Analytics-E37400?plastic&logo=googleanalytics&logoColor=white)
   
  
   ## Screenshots

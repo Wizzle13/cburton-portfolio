@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 import { validateEmail } from '../utils/helpers';
 
 function ContactForm() {
@@ -6,6 +8,20 @@ function ContactForm() {
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_xzhxq34', 'template_dkju3ol', form.current, 'S0FmQ5uTOn6TyOpDY')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
+    
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -29,7 +45,7 @@ function ContactForm() {
     return (
         <section>
           <h1 data-testid="h1tag">Contact me</h1>
-          <form id="contact-form" /*onSubmit={handleSubmit}*/>
+          <form id="contact-form" ref={form} onSubmit={sendEmail}>
             <div>
                 <label htmlFor="name">Name:</label><br />
                 <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
