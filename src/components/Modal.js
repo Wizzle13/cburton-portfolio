@@ -20,7 +20,7 @@ const Modal = ({ onClose, currentProject }) =>  {
             </a>
         </p>
         <button onClick={onClose} type="button">
-            Close this modal
+            Close this Window
         </button>
         </div>
         </div>

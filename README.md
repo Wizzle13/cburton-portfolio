@@ -29,6 +29,7 @@
 ![Github](https://img.shields.io/badge/GitHub-100000?plastic&logo=github&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?plastic&logo=visualstudiocode&logoColor=white)
 ![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=plastic&logo=lighthouse&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=plastic&logo=pnpm&logoColor=white)
 
 #### Dependencies:
 ![npm express](https://img.shields.io/npm/v/express?label=express&style=plastic)

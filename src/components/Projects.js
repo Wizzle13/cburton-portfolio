@@ -6,18 +6,11 @@ function Project() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const projects = [
         {
-            name: 'Horiseon',
-            description: 'Horiseon wished for their site to follow accessibility standards and to be optimized for searh engines.',
-            url: 'https://wizzle13.github.io/horiseon/',
-            github:'https://github.com/wizzle13/horiseon',
-            image:'horiseon.jpg'
-        },
-        {
-            name: 'Run Buddy',
-            description: 'Find your Run Buddy here. A mock website to offer running and training services. It was used as pratice for learning HTML and CSS.',
-            url: 'https://wizzle13.github.io/run-buddy/',
-            github:'https://github.com/wizzle13/run-buddy/',
-            image:'run-buddy.jpg'
+            name: 'The Ultimate README Generator',
+            description: 'This is a simple Node.js program designed to quickly create professional looking README.md documents.',
+            url: 'https://wizzle13.github.io/ultimate-readme-generator/',
+            github:'https://github.com/Wizzle13/ultimate-readme-generator/',
+            image:'readme-generator.png'
         },
         {
             name: 'Password Generator',
@@ -39,7 +32,22 @@ function Project() {
             url: 'https://the-poke-book.herokuapp.com',
             github:'https://github.com/Wizzle13/pokebook',
             image:'pokebook.jpg'
+        },
+        {
+            name: 'Horiseon',
+            description: 'Horiseon wished for their site to follow accessibility standards and to be optimized for searh engines.',
+            url: 'https://wizzle13.github.io/horiseon/',
+            github:'https://github.com/wizzle13/horiseon',
+            image:'horiseon.jpg'
+        },
+        {
+            name: 'Run Buddy',
+            description: 'Find your Run Buddy here. A mock website to offer running and training services. It was used as pratice for learning HTML and CSS.',
+            url: 'https://wizzle13.github.io/run-buddy/',
+            github:'https://github.com/wizzle13/run-buddy/',
+            image:'run-buddy.jpg'
         }
+        
     ];
 
     const toggleModal = (projects, i) => {
