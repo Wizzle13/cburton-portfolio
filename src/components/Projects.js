@@ -20,6 +20,13 @@ function Project() {
             image:'password-generator.png'
         },
         {
+            name: 'Gym Buddy',
+            description: 'This page is designed as new site for a local Gym. It has features allowing members to select membership plans, and trainers directly on the site.',
+            url: 'https://gym--buddy.herokuapp.com//',
+            github:'https://github.com/Wizzle13/gym-ecommerce/',
+            image:'gym-buddy.png'
+        },
+        {
             name: 'The Coders Blog',
             description: 'A simple blog site',
             url: 'https://the-coders-blog.herokuapp.com',
