@@ -7,16 +7,16 @@ function Nav(props) {
         <nav>
             <ul className="flex-row">
             <li className="mx-2">
-                <Link to="cburton-portfolio/">About Me</Link>
+                <Link to="/">About Me</Link>
             </li>
             <li className = "mx-2" >
-                <Link to="cburton-portfolio/portfolio">Portfolio</Link>
+                <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className = "mx-2" >
-                <Link to="cburton-portfolio/contact">Contact</Link>
+                <Link to="/contact">Contact</Link>
             </li>
             <li className = "mx-2" >
-                <Link to="cburton-portfolio/resume">Resume</Link>
+                <Link to="/resume">Resume</Link>
             </li>
             </ul>  
         </nav>

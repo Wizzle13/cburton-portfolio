@@ -21,27 +21,27 @@ function App() {
           <Routes>
           
             <Route
-              path="cburton-portfolio/"
+              path="/"
               element={<About />}
             />
 
             <Route
-              path="cburton-portfolio/"
+              path="/"
               element={<About />}
             />
  
             <Route
-              path="cburton-portfolio/resume"
+              path="/resume"
               element={<Resume />}
             />
 
             <Route
-              path="cburton-portfolio/contact"
+              path="/contact"
               element={<ContactForm />}
             />
             
             <Route
-              path="cburton-portfolio/portfolio"
+              path="/portfolio"
               element={<Portfolio />}
             /> 
 
