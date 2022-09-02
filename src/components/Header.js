@@ -5,11 +5,11 @@ function Header() {
   const [contactSelected, setContactSelected] = useState(false);
     return (
         <header className="flex-row px-1">
-          <h2>
+          <h1>
             <a data-testid="link" href="/">
               <span>Chris Burton</span>
             </a>
-          </h2>
+          </h1>
           <Nav>
             contactSelected={contactSelected}
             setContactSelected={setContactSelected}

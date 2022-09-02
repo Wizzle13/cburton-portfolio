@@ -43,8 +43,8 @@ function ContactForm() {
     }
     
     return (
-        <section>
-          <h1 data-testid="h1tag">Contact me</h1>
+        <section className='contactme'>
+          <h2 className='section-title'>CONTACT ME</h2>
           <form id="contact-form" ref={form} onSubmit={sendEmail}>
             <div>
                 <label htmlFor="name">Name:</label><br />
@@ -56,7 +56,7 @@ function ContactForm() {
             </div>
             <div>
                 <label htmlFor="message">Message:</label><br />
-                <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                <textarea name="message" defaultValue={message} onBlur={handleChange} cols="15" />
                 {errorMessage && (
                     <div>
                         <p className='error-text'>{errorMessage}</p>
