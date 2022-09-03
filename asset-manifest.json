@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c88aee6b.css",
+    "main.css": "/static/css/main.04a86a43.css",
     "main.js": "/static/js/main.3c6f1b5b.js",
     "static/js/612.a21476ce.chunk.js": "/static/js/612.a21476ce.chunk.js",
     "static/media/horiseon.jpg": "/static/media/horiseon.a0439288afd523f871a8.jpg",
@@ -14,12 +14,12 @@
     "static/media/github.webp": "/static/media/github.904b6c16276a6bb4eadb.webp",
     "static/media/HTML5.svg": "/static/media/HTML5.bf52b8cfb9729229217d.svg",
     "index.html": "/index.html",
-    "main.c88aee6b.css.map": "/static/css/main.c88aee6b.css.map",
+    "main.04a86a43.css.map": "/static/css/main.04a86a43.css.map",
     "main.3c6f1b5b.js.map": "/static/js/main.3c6f1b5b.js.map",
     "612.a21476ce.chunk.js.map": "/static/js/612.a21476ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c88aee6b.css",
+    "static/css/main.04a86a43.css",
     "static/js/main.3c6f1b5b.js"
   ]
 }
