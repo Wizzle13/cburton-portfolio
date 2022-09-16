@@ -71,7 +71,7 @@
 
 			.slide.y:before {
 				content: '';
-				background-image: url('../assets/images/profilepic.webp');
+				background-image: url('../assets/images/profilepic4.webp');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}
@@ -83,14 +83,14 @@
 
 			.slide.z:after {
 				content: '';
-				background-image: url('../assets/images/profilepic2.webp');
+				background-image: url('../assets/images/profilepic5.webp');
 				-webkit-transform: translateZ(100px);
 				        transform: translateZ(100px);
 			}
 
 			.slide.z:before {
 				content: '';
-				background-image: url('../assets/images/profilepic3.webp');
+				background-image: url('../assets/images/profilepic6.webp');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}
