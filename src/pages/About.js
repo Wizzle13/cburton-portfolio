@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/about.css';
+import '../css/profile.css';
 
 
 function About() {
@@ -7,8 +8,15 @@ function About() {
         <div>
             <section id="aboutme">
                 <section className='profile-pic'>
-                    <img src={require(`../assets/images/profilepic.webp`)} alt="/" />
-                    
+                    {/* <img src={require(`../assets/images/profilepic.webp`)} alt="/" /> */}
+                    <div class="slider">
+                    <div class="container">
+                        <div class="slide x"></div>
+                        <div class="slide y"></div>
+                        <div class="slide z"></div>
+                    </div>
+                    <div class="shadow"></div>
+                    </div>
                 </section>  
                 <h2 className='section-title'>ABOUT ME</h2>
                 <p className='aboutme-info'>
