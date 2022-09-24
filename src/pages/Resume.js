@@ -34,6 +34,9 @@ function Resume() {
                     </ul>
                 </div>
             </section>
+            <section id="badges">
+            <img src={require(`../assets/images/badges/fswd.png`)} alt="Full Stack Web Developer Badge"/>
+            </section>
         </div>
     )    
 }

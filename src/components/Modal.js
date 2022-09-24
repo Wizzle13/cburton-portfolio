@@ -7,7 +7,7 @@ const Modal = ({ onClose, currentProject }) =>  {
         <div className="modalBackdrop">
         <div className="modalContainer">
         <h3 className="modalTitle">{name}</h3>
-        <img src={require(`../assets/images/${image}`)} alt={name} />
+        <img src={require(`../assets/images/projects/${image}`)} alt={name} />
         <p>{description}</p>
         <p>
             <a href={url}>
