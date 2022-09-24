@@ -30,7 +30,7 @@
 			display: block;
 			width: inherit;
 			height: inherit;
-			background-image: url('../assets/images/profilepic.webp');
+			background-image: url('../assets/images/profiles/profilepic.webp');
 			position: absolute;
 			-webkit-transform-style: preserve-3d;
 			        transform-style: preserve-3d;
@@ -45,14 +45,14 @@
 
 			.slide.x:after {
 				content: '';
-				background-image: url('../assets/images/profilepic.webp');
+				background-image: url('../assets/images/profiles/profilepic.webp');
 				-webkit-transform: translateZ(100px) rotateZ(-90deg);
 				        transform: translateZ(100px) rotateZ(-90deg);
 			}
 
 			.slide.x:before {
 				content: '';
-				background-image: url('../assets/images/profilepic2.webp');
+				background-image: url('../assets/images/profiles/profilepic2.webp');
 				-webkit-transform: translateZ(-100px) rotateZ(-90deg);
 				        transform: translateZ(-100px) rotateZ(-90deg);
 			}
@@ -64,14 +64,14 @@
 
 			.slide.y:after {
 				content: '';
-				background-image: url('../assets/images/profilepic3.webp');
+				background-image: url('../assets/images/profiles/profilepic3.webp');
 				-webkit-transform: translateZ(100px) scale(-1);
 				        transform: translateZ(100px) scale(-1);
 			}
 
 			.slide.y:before {
 				content: '';
-				background-image: url('../assets/images/profilepic4.webp');
+				background-image: url('../assets/images/profiles/profilepic4.webp');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}
@@ -83,14 +83,14 @@
 
 			.slide.z:after {
 				content: '';
-				background-image: url('../assets/images/profilepic5.webp');
+				background-image: url('../assets/images/profiles/profilepic5.webp');
 				-webkit-transform: translateZ(100px);
 				        transform: translateZ(100px);
 			}
 
 			.slide.z:before {
 				content: '';
-				background-image: url('../assets/images/profilepic6.webp');
+				background-image: url('../assets/images/profiles/profilepic6.webp');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}

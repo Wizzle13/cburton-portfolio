@@ -69,7 +69,7 @@ function Project() {
                 <div className='flex-row'>
                     {projects.map((projects, i) => (
                     <img
-                        src={require(`../assets/images/${projects.image}`)}
+                        src={require(`../assets/images/projects/${projects.image}`)}
                         alt={projects.name}
                         className='img-thumbnail mx-1'
                         onClick={() => toggleModal(projects, i)}
