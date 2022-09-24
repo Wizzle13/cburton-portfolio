@@ -65,6 +65,12 @@ function ContactForm() {
             </div>
             <button data-testid="button" type="submit">Submit</button>
           </form>
+          <div>
+            <a href='https://hihello.me/p/b99221b1-dab1-4451-b4b2-348908ff5254'>
+                <img src={require(`../assets/images/QrCode.png`)} alt="QR Contact Info" id="qrcode"/>
+            </a>    
+          </div>
+
         </section>
       )
 }
