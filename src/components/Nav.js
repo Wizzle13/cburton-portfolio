@@ -5,7 +5,7 @@ function Nav(props) {
     
     return (
         <nav>
-            <ul className="flex-row">
+            <ul className="flex-row ">
                 <li className="mx-2">
                     <Link to="/">About Me</Link>
                 </li>

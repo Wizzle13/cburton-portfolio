@@ -10,6 +10,7 @@ main {
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
+  --tardis:#102372;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(2rem);
@@ -33,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--tardis);
   color: var(--light);
   font-family: proxima-nova, sans-serif;
   font-style: normal;
@@ -93,7 +94,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--tardis);
 }
 
 header a {

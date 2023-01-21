@@ -6,7 +6,7 @@ function Resume() {
         <div>
             <section id="resume">
                 <h2 className='section-title'>Resume</h2>
-                <div className='resume'>
+                <div className='resume '>
                     Download <a href={require(`../assets/cburton_resume.pdf`)} download>Resume</a>
                     <br />
                     <br />
