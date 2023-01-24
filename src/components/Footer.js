@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/footer.css';
-import 'https://kit.fontawesome.com/b6f1bbf07b.js'
+
 function Footer() {
     return (
         <footer>
