@@ -16,6 +16,7 @@
 }
 .social-container ul {
     position: absolute;
+    padding-left: 0; /* added to remove left padding*/
 }
 
 .social-container .btn {

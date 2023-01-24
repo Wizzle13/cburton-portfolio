@@ -20,6 +20,7 @@ main {
 
 * {
   box-sizing: border-box;
+  
 }
 
 html,
@@ -131,7 +132,7 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 50%;
 }
 
 input {
