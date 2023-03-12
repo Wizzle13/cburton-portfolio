@@ -6,6 +6,13 @@ function Project() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const projects = [
         {
+            name: 'The Andromeda Intro Quote Generator',
+            description: 'Randomly pulls into quotes form the tv series Andromeda. I was unable to find and api for this so i build my own json file containing all the quote. ',
+            url: 'https://wizzle13.github.io/andromeda-quote-generator',
+            github:' https://github.com/wizzle13/andromeda-quote-generator',
+            image:'andromeda.png'
+        },
+        {
             name: 'The Ultimate README Generator',
             description: 'This is a simple Node.js program designed to quickly create professional looking README.md documents.',
             url: 'https://wizzle13.github.io/ultimate-readme-generator/',

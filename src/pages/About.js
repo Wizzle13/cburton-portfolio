@@ -22,7 +22,7 @@ function About() {
                 <p className='aboutme-info'>
                     Hello, I am Chris.
                     <p>
-                        I’m an aspiring full stack web developer in Southern Minnesota. 
+                        I’m a full stack web developer in Southern Minnesota. 
                     </p>
                     <p>  
                         I have spent the last two decades in manufacturing. I have built ATV’s, boats, and Indian motorcycles. Do I ride a motorcycle? No, my wife would kill me. Do I want to? Oh yeah. I’ll convince her someday just like I convinced her to marry me and to stop pursuing other, hunkier, possibly God like blonde Chris’s. 
