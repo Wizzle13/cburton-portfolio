@@ -30,7 +30,7 @@ function Resume() {
                         <li>Node.js</li>
                         <li>Express.js</li>
                         <li>MySQL</li>
-                        <li>MondoDB</li>
+                        <li>MongoDB</li>
                     </ul>
                 </div>
             </section>
